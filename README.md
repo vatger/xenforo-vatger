@@ -1,10 +1,10 @@
 ﻿# Xenforo-Vatger
 
-The Xenforo Vatger addon modifies the behaviour of the [Xenforo](https://xenforo.com/) forum software. In its current state, it handles the following two cases:
+The Xenforo-Vatger (previously Xenforo-Auth) addon modifies the behaviour of the [Xenforo](https://xenforo.com/) forum software. In its current state, it handles the following two cases:
 1. Authenticating users via VATSIM Germany's OAuth2 provider. 
 2. Using functional accounts by staff members.
 3. Adding and removing staff-/moderation groups.
-4. Assigning and removing avatars
+4. Assigning and removing avatars.
 
 > [!NOTE]
 > Although the Addon is tailored towards the VATSIM Germany OAuth2 implementation, VATSIM's implementation can (with minor modifications) be used as well. 
@@ -58,3 +58,4 @@ Within the Xenforo CP, navigate to `Setup > Options > VATGER - Authentication`. 
 
 
 Once you've entered your data in these fields, OAuth should simply work! The "Log in" button on the homepage is overridden to navigate to `/oauth` which starts the flow and signs the user in. 
+
