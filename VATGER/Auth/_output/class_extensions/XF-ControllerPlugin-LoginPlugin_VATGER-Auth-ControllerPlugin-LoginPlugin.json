@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\ControllerPlugin\\LoginPlugin",
+    "to_class": "VATGER\\Auth\\ControllerPlugin\\LoginPlugin",
+    "execute_order": 10,
+    "active": true
+}

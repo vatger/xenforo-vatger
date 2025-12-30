@@ -4,6 +4,11 @@
 // ################## THIS IS A GENERATED FILE ##################
 // DO NOT EDIT DIRECTLY. EDIT THE CLASS EXTENSIONS IN THE CONTROL PANEL.
 
+namespace VATGER\Auth\ControllerPlugin
+{
+	class XFCP_LoginPlugin extends \XF\ControllerPlugin\LoginPlugin {}
+}
+
 namespace VATGER\Auth\Entity
 {
 	class XFCP_PermissionEntry extends \XF\Entity\PermissionEntry {}

@@ -1,0 +1,1 @@
+Time in seconds after which the XF_User cookie will no longer be valid.
